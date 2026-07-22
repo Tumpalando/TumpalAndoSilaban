@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="id" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio | Tumpal Fernando Silaban</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-bg-dark text-white">
+
+    <!-- 1. NAVBAR  -->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top border-bottom border-secondary shadow-sm">
+        <div class="container">
+            <img src="img.jpeg" alt="Tumpal Fernando Silaban" width="40" height="40" class="rounded-circle border border-2 border-primary shadow me-2" style="object-fit: cover;">
+            <a class="navbar-brand fw-bold text-white" href="#beranda">Tumpal Fernando Silaban</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-medium">
+                    <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. JUMBOTRON -->
+    <section id="beranda" class="py-5 text-center bg-body-tertiary border-bottom border-secondary">
+        <div class="container py-4">
+            <img src="foto.jpeg" alt="Tumpal Fernando Silaban" width="250" height="250" class="rounded-circle border border-3 border-primary shadow mb-3" style="object-fit: cover;">
+            <h1 class="display-5 fw-bold text-white mb-2">Tumpal Fernando Silaban</h1>
+            <p class="lead text-secondary mb-4">Mahasiswa TRPL | Pengembang IoT & Web</p>
+            <a href="#projects" class="btn btn-primary btn-lg rounded-pill shadow-sm px-4">Lihat Proyek Saya</a>
+        </div>
+    </section>
+
+    <!-- 3. TENTANG SAYA -->
+    <section id="tentang" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2 class="fw-bold text-white">Tentang Saya</h2>
+                    <hr class="w-25 mx-auto border-primary border-2 opacity-100">
+                </div>
+            </div>
+            <div class="row justify-content-center text-secondary fs-6 text-center lh-lg">
+                <div class="col-md-5 mb-3">
+                    <p>Halo! Saya Tumpal Fernando Silaban, seorang mahasiswa jurusan Teknologi Rekayasa Perangkat Lunak (TRPL) yang berdomisili di Percut Sei Tuan, Deli Serdang. Saya memiliki ketertarikan mendalam pada dunia teknologi, logika pemrograman, dan arsitektur perangkat keras.</p>
+                </div>
+                <div class="col-md-5 mb-3">
+                    <p>Fokus utama saya saat ini adalah menguasai Java, Python, dan JavaScript, serta merancang sistem cerdas (IoT) untuk sektor pertanian seperti sistem <i>smart farming</i> hidroponik. Saya juga senang bereksplorasi di bidang optimasi PC gaming dan videografi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROYEK SAYA  -->
+    <section id="projects" class="py-5 bg-body-tertiary border-top border-bottom border-secondary">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2 class="fw-bold text-white">Proyek Saya</h2>
+                    <hr class="w-25 mx-auto border-primary border-2 opacity-100">
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+
+                <!-- Card Proyek 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-secondary shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1558449028-b53a39d100fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&q=80" class="card-img-top" alt="Proyek Fortex" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-white mb-2">Fortex - Smart Hidroponik</h5>
+                            <p class="card-text text-secondary">Sistem hidroponik otomatis berbasis Internet of Things (IoT) menggunakan mikrokontroler ESP32, terintegrasi dengan sensor tanah dan relay solenoid valve.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Proyek 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-secondary shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&q=80" class="card-img-top" alt="Aplikasi AKURA" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-white mb-2">AKURA - Aplikasi Kasir</h5>
+                            <p class="card-text text-secondary">Konsep dan pengembangan perangkat lunak aplikasi kasir mandiri yang dirancang untuk mempercepat pencatatan transaksi dan manajemen bisnis UMKM.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Proyek 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-secondary shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&q=80" class="card-img-top" alt="Java Offline Reference" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-white mb-2">Referensi Java Offline</h5>
+                            <p class="card-text text-secondary">Alat bantu referensi <i>coding</i> Java luring yang sengaja dirancang untuk membantu produktivitas belajar di area dengan akses internet terbatas.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. KONTAK -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2 class="fw-bold text-white">Hubungi Saya</h2>
+                    <hr class="w-25 mx-auto border-primary border-2 opacity-100">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-white fw-medium">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white fw-medium">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="nama@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label text-white fw-medium">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 fw-bold py-2">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. FOOTER -->
+    <footer class="bg-primary text-center py-4 border-top border-secondary">
+        <div class="footer">
+            <p class="mb-0 text-secondary text-white">© 2026 CopyRight Tumpal Fernando Silaban.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
